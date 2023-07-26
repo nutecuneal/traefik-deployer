@@ -11,6 +11,7 @@
     - [2.1. Portas](#21-portas)
     - [2.2. Volumes](#22-volumes)
     - [2.3. Redes](#23-redes)
+    - [3. Adicionando Containers na Rede](#3-adicionando-containers-na-rede)
 
 
 ## 1. Requisitos e Dependências
@@ -65,4 +66,20 @@ volumes:
 config:
 # Endereço da rede.
   - subnet: 172.18.0.0/28
+```
+
+### 3. Adicionando Containers na Rede
+
+```yml
+# No docker-compose do serviço alvo.
+
+# Adicione a rede.
+networks:
+  traefik-net:
+    name: traefik-net
+    external: true
+
+# Em "services.<service_name>".
+networks:
+  - traefik-net
 ```

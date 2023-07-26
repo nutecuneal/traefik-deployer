@@ -1,5 +1,7 @@
 # Traefik
 
+[Traefik](https://doc.traefik.io/traefik) is um opensource proxy reverso para publicação de serviços e de fácil experiência. Ele trabalha recebendo solicitações e distribuindo para os serviços alvos os quais a própria ferramenta descobre através das notações providas e configurações, sendo um dos principais diferenciais em comparação com outras ferramentas. Além disso, o Traefik oferece um painel integrado para gerenciamento (visualização) e possui suporte a gerenciamento automático de certificado TLS/SSL, além de outros recursos.
+
 ## Sumário
 
 - [Traefik](#traefik)

@@ -11,7 +11,7 @@
     - [2.1. Portas](#21-portas)
     - [2.2. Volumes](#22-volumes)
     - [2.3. Redes](#23-redes)
-    - [3. Adicionando Containers na Rede](#3-adicionando-containers-na-rede)
+  - [3. Adicionando Containers na Rede](#3-adicionando-containers-na-rede)
 
 
 ## 1. Requisitos e Dependências
@@ -68,7 +68,7 @@ config:
   - subnet: 172.18.0.0/28
 ```
 
-### 3. Adicionando Containers na Rede
+## 3. Adicionando Containers na Rede
 
 ```yml
 # No docker-compose do serviço alvo.
